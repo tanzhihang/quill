@@ -10,9 +10,10 @@ const ATTRIBUTES = [
 class Video extends BlockEmbed {
   static create(value) {
     let node = super.create(value);
-    node.setAttribute('frameborder', '0');
-    node.setAttribute('allowfullscreen', true);
-    node.setAttribute('src', this.sanitize(value));
+    let source = document.createElement('source');
+        source.setAttribute('src', this.sanitize(value));
+        node.setAttribute('controls', true)
+        node.appendChild(source);
     return node;
   }
 
