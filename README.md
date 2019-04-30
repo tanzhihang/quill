@@ -39,7 +39,7 @@ To get started, check out the [Quill](https://quilljs.com/) website for document
 
 ## Quickstart
 
-Instantiate a new Quill object with a css selector for the div that should become the editor.
+Instantiate a new Quill object with a css selector for the div that should become the editor1212.
 
 ```html
 <!-- Include Quill stylesheet -->
