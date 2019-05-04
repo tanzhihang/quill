@@ -1,3 +1,5 @@
+Note: This branch and README covers the upcoming 2.0 release. View [1.x docs here](https://github.com/quilljs/quill/tree/1.3.6).
+
 <h1 align="center">
   <a href="https://quilljs.com/" title="Quill">Quill Rich Text Editor</a>
 </h1>
@@ -32,13 +34,14 @@
   </a>
 </p>
 
-[QuillJS](https://quilljs.com/) is a modern rich text editor built for compatibility and extensibility. It was created by [Jason Chen](https://twitter.com/jhchen) and [Byron Milligan](https://twitter.com/byronmilligan) and open sourced by Salesforce.
+[Quill](https://quilljs.com/) is a modern rich text editor built for compatibility and extensibility. It was created by [Jason Chen](https://twitter.com/jhchen) and [Byron Milligan](https://twitter.com/byronmilligan) and actively maintained by [Slab](https://slab.com).
 
-To get started, check out the [Quill](https://quilljs.com/) website for documentation, guides, and live demos!
+To get started, check out [https://quilljs.com/](https://quilljs.com/) for documentation, guides, and live demos!
 
 
 ## Quickstart
-123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123
+
+Instantiate a new Quill object with a css selector for the div that should become the editor.
 
 ```html
 <!-- Include Quill stylesheet -->
@@ -98,6 +101,7 @@ Take a look at the [Quill](https://quilljs.com/) website for more documentation,
 Get help or stay up to date.
 
 - [Contribute](https://github.com/quilljs/quill/blob/develop/.github/CONTRIBUTING.md) on [Issues](https://github.com/quilljs/quill/issues)
+- Follow [@jhchen](https://twitter.com/jhchen) and [@quilljs](https://twitter.com/quilljs) on Twitter
 - Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/quill)
 - If privacy is required, email support@quilljs.com
 
@@ -105,4 +109,3 @@ Get help or stay up to date.
 ## License
 
 BSD 3-clause
-<h1 align="center">
